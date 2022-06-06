@@ -1,0 +1,15 @@
+.button-container {
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #2196F3;
+    color: #fff;
+    transition: all .5s;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.button-container:hover {
+    background-color: #1E88E5;
+}

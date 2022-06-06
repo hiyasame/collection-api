@@ -1,0 +1,17 @@
+.outline-button-container {
+    margin: 0px 10px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 5px 10px;
+    user-select: none;
+}
+
+.outline-button-container:hover {
+    background-color: white;
+    color: gray;
+}

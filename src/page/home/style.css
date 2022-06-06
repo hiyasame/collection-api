@@ -1,0 +1,38 @@
+.home-background {
+    width: 100%;
+    height: 100%;
+    background: url("./wallpaper.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.home-bg-color {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(81, 81, 81, 0.6);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title {
+    font-family: Old English Text MT,EngraversOldEnglishBT-Bold,Lato,PingFang SC,Microsoft YaHei,sans-serif;
+    letter-spacing: .05em;
+    font-size: 2em;
+    font-weight: lighter;
+    color: #fff;
+    margin: 10px 0px;
+}
+
+.home-sub-title {
+    font-family: Old English Text MT,EngraversOldEnglishBT-Bold,Lato,PingFang SC,Microsoft YaHei,sans-serif;
+    letter-spacing: .05em;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0px;
+}
