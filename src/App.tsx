@@ -1,19 +1,14 @@
 import { Route, Routes } from 'react-router-dom'
 import HomePage from './page/home'
 import NotFound from './page/not-found'
+import Scaffold from './page/scaffold'
 
 function App() {
   return (
     <Routes>
       <Route path='/'>
         <Route index element={ <HomePage /> } />
-        <Route path='wall'>
-          <Route path='saying' />
-          <Route path='lyrics' />
-          <Route path='emoticon' />
-          <Route path='wallpaper' />
-          <Route path='api-docs' />
-        </Route>
+        <Route path='wall' element={ <Scaffold elements={[["Saying", <div></div>], ["Lyrics", <div></div>]]} /> } />
       </Route>
       <Route path='*' element={ <NotFound /> } />
     </Routes>

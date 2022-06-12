@@ -1,0 +1,13 @@
+.scaffold-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.scaffold-page-container {
+    width: fill-available;
+    height: 100%;
+}

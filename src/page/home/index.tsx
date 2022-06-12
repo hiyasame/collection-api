@@ -21,7 +21,7 @@ export default function HomePage() {
                 <div style={{ margin: 20 }}>
                     <OutlineButton content={"API Docs"} onClick={() => navigate("/api-docs")} />
                 </div>
-                <GithubCorner url='https://github.com/ColdRain-Moro' />
+                <GithubCorner url='https://github.com/ColdRain-Moro/collection-api' />
             </div>
         </div>
     )
